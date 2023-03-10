@@ -38,7 +38,6 @@ def search():
             return
         else:
             if var[index] == r:
-                kolom = fib(var[index], r, len(var[index]))
                 print("Index: ", index, "\n") #arsel, avivah, daiva
                 return
             
